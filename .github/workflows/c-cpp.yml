@@ -7,7 +7,7 @@ jobs:
 #    - name: Cleanup
 #      run: rm -rf .* || true
   build:
-    runs-on: ${{ matrix.os }}
+    runs-on: ubuntu-latest
     continue-on-error: true
     strategy:
       fail-fast: false
